@@ -1,4 +1,8 @@
 button[data-qa-id="chat-button"] {
-    bottom: 500px; 
+    bottom: 500px;
     position: fixed;
+    background-color: red !important;
+    border: 5px solid yellow !important;
+    box-shadow: 0 0 10px 5px rgba(0, 255, 0, 0.7) !important;
+    z-index: 1000 !important;
 }
