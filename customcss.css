@@ -1,0 +1,4 @@
+button[data-qa-id="chat-button"] {
+    bottom: 500px; /* Adjust this value to move the button up */
+    position: fixed; /* Fixes the button position */
+}
