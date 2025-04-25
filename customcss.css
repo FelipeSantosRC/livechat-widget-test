@@ -1,12 +1,10 @@
-/* Para qualquer elemento com alert__4iTB5 (classe de alerta) */
 [class*="alert__4iTB5"] {
-    text-wrap: normal !important;  /* Corrigir a quebra de texto */
-    height: auto !important;       /* Permitir que a altura ajuste automaticamente */
+    text-wrap: normal !important; 
+    height: auto !important;     
 }
 
-/* Para qualquer elemento com alert__content__ (classe de conteúdo do alerta) */
 [class*="alert__content__"] {
-    word-wrap: break-word !important;  /* Quebrar palavras longas */
-    overflow-wrap: break-word !important;  /* Garantir a quebra */
-    white-space: normal !important;     /* Permitir quebras de linha */
+    word-wrap: break-word !important;  
+    overflow-wrap: break-word !important; 
+    white-space: normal !important;   
 }
