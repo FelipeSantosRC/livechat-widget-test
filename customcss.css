@@ -1,30 +1,9 @@
-div.alert__4iTB5.alert--error__huJ7n {
-    background-color: #4CAF50 !important; /* verde */
+.alert__4iTB5 alert--error__huJ7n{
+    text-wrap: auto !important;
+    height: auto !important;
 }
 
-header.header__Ma8Sh {
-    background-color: #e91e63 !important; /* rosa pink */
-    color: white;
+.alert__4iTB5{
+    text-wrap: auto !important;
+    height: auto !important;
 }
-
-.header__post__JCAEt {
-    display: flex;
-    flex-direction: column;
-}
-
-.alert__4iTB5.alert--error__huJ7n {
-    white-space: normal !important;
-    word-break: break-word !important;
-    overflow: visible !important;
-    flex-wrap: wrap !important;
-    align-items: flex-start !important;
-    width: 100% !important;
-}
-
-.alert__content__nAQxJ {
-    flex: 1 1 auto !important;
-    min-width: 0;
-    width: 100%;
-}
-
-
