@@ -1,9 +1,12 @@
-.alert__4iTB5 alert--error__huJ7n{
-    text-wrap: auto !important;
-    height: auto !important;
+/* Para o alerta de erro */
+[class*="alert__4iTB5"] {
+    text-wrap: normal !important;  /* Corrigir a quebra de texto */
+    height: auto !important;       /* Permitir que a altura ajuste automaticamente */
 }
 
-.alert__4iTB5{
-    text-wrap: auto !important;
-    height: auto !important;
+/* Para o conteúdo do alerta */
+[class*="alert__content__nAQxJ"] {
+    word-wrap: break-word !important;  /* Quebrar palavras longas */
+    overflow-wrap: break-word !important;  /* Garantir a quebra */
+    white-space: normal !important;     /* Permitir quebras de linha */
 }
