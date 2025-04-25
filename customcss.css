@@ -7,19 +7,24 @@ header.header__Ma8Sh {
     color: white;
 }
 
+.header__post__JCAEt {
+    display: flex;
+    flex-direction: column;
+}
+
 .alert__4iTB5.alert--error__huJ7n {
     white-space: normal !important;
     word-break: break-word !important;
     overflow: visible !important;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 10px;
-    width: 100%;
+    flex-wrap: wrap !important;
+    align-items: flex-start !important;
+    width: 100% !important;
 }
 
 .alert__content__nAQxJ {
-    flex: 1;
+    flex: 1 1 auto !important;
     min-width: 0;
+    width: 100%;
 }
+
 
