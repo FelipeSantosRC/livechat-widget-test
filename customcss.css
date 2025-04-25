@@ -1,11 +1,11 @@
-/* Para o alerta de erro */
+/* Para qualquer elemento com alert__4iTB5 (classe de alerta) */
 [class*="alert__4iTB5"] {
     text-wrap: normal !important;  /* Corrigir a quebra de texto */
     height: auto !important;       /* Permitir que a altura ajuste automaticamente */
 }
 
-/* Para o conteúdo do alerta */
-[class*="alert__content__nAQxJ"] {
+/* Para qualquer elemento com alert__content__ (classe de conteúdo do alerta) */
+[class*="alert__content__"] {
     word-wrap: break-word !important;  /* Quebrar palavras longas */
     overflow-wrap: break-word !important;  /* Garantir a quebra */
     white-space: normal !important;     /* Permitir quebras de linha */
