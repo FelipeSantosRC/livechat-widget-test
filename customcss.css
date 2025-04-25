@@ -1,8 +1,23 @@
-button[data-qa-id="chat-button"] {
-    bottom: 500px;
-    position: fixed;
-    background-color: red !important;
-    border: 5px solid yellow !important;
-    box-shadow: 0 0 10px 5px rgba(0, 255, 0, 0.7) !important;
-    z-index: 1000 !important;
+/* Estilo para a caixa de erro, agora verde */
+div.alert__4iTB5.alert--error__huJ7n {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #4CAF50; /* verde */
+    color: white;
+    width: 100%;
+    white-space: normal;
+    word-break: break-word;
+    flex-wrap: wrap;
+    border-radius: 4px;
+}
+
+div.alert__content__nAQxJ {
+    flex: 1;
+    min-width: 0;
+}
+
+button.alert__close__s1z20 {
+    margin-left: 10px;
+    flex-shrink: 0;
 }
