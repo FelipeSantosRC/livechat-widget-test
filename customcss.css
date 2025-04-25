@@ -6,3 +6,20 @@ header.header__Ma8Sh {
     background-color: #e91e63 !important; /* rosa pink */
     color: white;
 }
+
+.alert__4iTB5.alert--error__huJ7n {
+    white-space: normal !important;
+    word-break: break-word !important;
+    overflow: visible !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.alert__content__nAQxJ {
+    flex: 1;
+    min-width: 0;
+}
+
